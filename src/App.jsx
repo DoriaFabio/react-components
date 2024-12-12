@@ -1,14 +1,14 @@
-import headerComponent from "./components/headerComponent.jsx";
-import mainComponent from "./components/mainComponent.jsx"
-import footerComponent from "./components/footerComponent.jsx"
+import HeaderComponent from "./components/headerComponent.jsx";
+import MainComponent from "./components/mainComponent.jsx"
+import FooterComponent from "./components/footerComponent.jsx"
 
 function App() {
 
   return (
     <>
-      <headerComponent />
-      <mainComponent />
-      <footerComponent />
+      <HeaderComponent />
+      <MainComponent />
+      <FooterComponent />
     </>
   );
 }

@@ -1,7 +1,13 @@
-.mybg {
+body {
     background-color: #E5E5E5;
 }
 
 .bgFooter {
     background-color: #333333;
+    color: white;
+}
+
+.mycontainer {
+    margin: 0 auto;
+    max-width: 1000px;
 }
