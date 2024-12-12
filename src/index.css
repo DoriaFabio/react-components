@@ -13,5 +13,19 @@ body {
 }
 
 .mycard {
-    width: 390px;
+    width: 400px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: all;
+    transition-duration: 0.5s;
 }
+
+.mycard:hover {
+    transform: scale(1.05);
+    /* z-index: 3; */
+    box-shadow: 12px 12px 5px 0px rgba(0,0,0,0.7);
+    cursor: pointer;
+    background-image: url("../public/foglie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
