@@ -1,5 +1,15 @@
+import headerComponents from "./components/headerComponents.jsx";
+import footerComponent from "./components/footerComponent.jsx"
+
 function App() {
-  return <h1>Hello World!</h1>;
+
+  return (
+    <>
+      <headerComponents />
+      <footerComponent />
+    </>
+  )
+  
 }
 
 export default App
