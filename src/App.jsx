@@ -1,6 +1,6 @@
 import HeaderComponent from "./components/headerComponent.jsx";
-import MainComponent from "./components/mainComponent.jsx"
-import FooterComponent from "./components/footerComponent.jsx"
+import MainComponent from "./components/mainComponent.jsx";
+import FooterComponent from "./components/footerComponent.jsx";
 
 function App() {
 
